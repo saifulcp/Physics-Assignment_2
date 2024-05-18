@@ -12,7 +12,7 @@
           cout << "Enter the distance between the slits (um): ";
           cin>>d;
 
-            if (lambda < 380 || lambda > 750)    // Check  valid range
+            if (lambda < 380 || lambda > 750)   
             {
         cout << "Out of the range. Please enter a valid number." << endl;
             }
