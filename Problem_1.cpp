@@ -16,7 +16,7 @@
             {
         cout << "Out of the range. Please enter a valid number." << endl;
             }
-
+        else {
           d=d*1e-6;       // Convert distance from um to meters ;
           lambda=lambda*1e-9;    // Convert wavelength from nm to meters ;
          double theta_rad=theta *(P_I/180.0);   // Convert  degrees to radians
@@ -24,5 +24,6 @@
           double M=(d*sin(theta_rad))/lambda;
           int Max_order=M;
           cout<<Max_order<< " -th the maxima order";
+        }
           return 0;
   }
